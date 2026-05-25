@@ -1,2 +1,30 @@
-# uno-game-api
-RESTful UNO game backend built with Java and Spring Boot. Features game state management, turn logic, card effects, DTO-based API architecture, and support for multiple concurrent games using UUID-based sessions.
+# UNO Game API
+
+Spring Boot backend API for an UNO card game.
+
+## Features
+
+- Create and manage UNO games
+- Play cards
+- Draw cards
+- Pass turns
+- DTO-based REST API
+- UUID-based game sessions
+
+## Tech Stack
+
+- Java
+- Spring Boot
+- Maven
+
+## API Endpoints
+
+```text
+POST /api/uno/games
+GET  /api/uno/games/{gameId}
+POST /api/uno/games/{gameId}/play-card
+POST /api/uno/games/{gameId}/draw-card
+POST /api/uno/games/{gameId}/pass-turn
+```
+
+
