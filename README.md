@@ -2,6 +2,10 @@
 
 Spring Boot backend API for an UNO card game.
 
+An in-progress Spring Boot backend API for a rebuilt UNO game platform.
+
+This project is a modern rebuild and expansion of an older UNO game project. The current focus is on modular game-state management, REST API design, multiplayer-oriented architecture concepts, and frontend/backend separation for future browser-based gameplay.
+
 ## Features
 
 - Create and manage UNO games
